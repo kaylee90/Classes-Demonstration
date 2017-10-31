@@ -9,6 +9,10 @@ namespace ClassesDemonstration
 
         private static int GameState { get; set; }
 
+        /// <summary>
+        /// A program that creates pizzas.
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             Pizza pizza = new Pizza();
